@@ -1,0 +1,54 @@
+body{
+    background: black;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    left: 0;
+    padding: 20px;
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-weight: 600px;
+    text-decoration: none;
+    color: white;
+}
+.navbar a {
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-weight: 600px;
+    color: white;
+    text-decoration: none;
+    padding-right: 50px;
+}
+
+.navbar a:hover {
+    color: rgb(100, 100, 100);
+    transition: 0.2s;
+}
+
+#header-image img{
+   width: 1500px;
+   height: 300px; 
+    display: block;
+    margin: 0, auto;
+    border-bottom: solid 5px grey; 
+}
+
+p{
+    padding-top: 150px;
+}
+
+
+/*https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2Fvywwv3ofzcia1.gif&f=1&nofb=1&ipt=c300e6462e7499c89810d6eb1b395b012eb20adeef279746d291219ab7e759a5*/
